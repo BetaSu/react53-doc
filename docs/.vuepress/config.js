@@ -3,7 +3,7 @@ const {description} = require('../../package.json');
 module.exports = {
   lang: 'zh-CN',
   title: '5年React三年模拟',
-  base: 'react53-doc',
+  base: '/react53-doc/',
   description,
   themeConfig: {
     logo: 'https://ftp.bmp.ovh/imgs/2021/07/8ca4fe5532804c16.jpeg',

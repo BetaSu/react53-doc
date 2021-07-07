@@ -1,0 +1,15 @@
+{
+  "name": "react-homework-doc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "KaSong <313439271@qq.com>",
+  "description": "努力做最好懂的React进阶课程",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.21"
+  }
+}

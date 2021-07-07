@@ -10,4 +10,4 @@
 
 请关注公号后点击**联系我**，加我微信告诉我：
 
-![魔术师卡颂](/images/魔术师卡颂.jpeg)
+<img :src="$withBase('/images/魔术师卡颂.jpeg')" width="200" alt="魔术师卡颂"/>

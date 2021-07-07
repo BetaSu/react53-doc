@@ -31,10 +31,10 @@ module.exports = {
       },
     ],
     navbar: [
-      {
-        text: '🙋‍♂️一起学习',
-        link: '/extra/me.md',
-      },
+      // {
+      //   text: '🙋‍♂️一起学习',
+      //   link: '/extra/me.md',
+      // },
     ],
   },
 }

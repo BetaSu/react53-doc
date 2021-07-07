@@ -10,7 +10,7 @@ module.exports = {
     repo: 'https://github.com/BetaSu/react53',
     sidebar: [
       {
-        text: '本文档解决的问题',
+        text: '本课程解决的问题',
         link: '/index.md'
       },
       {

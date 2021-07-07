@@ -54,8 +54,8 @@
 
 ```sh
 # 克隆习题项目
-git clone https://github.com/BetaSu/react-homework.git
-cd react-homework;
+git clone https://github.com/BetaSu/react53.git
+cd react53;
 # 安装依赖
 yarn # 或 npm install
 # 启动习题

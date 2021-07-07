@@ -7,7 +7,7 @@ module.exports = {
   description,
   themeConfig: {
     logo: 'https://ftp.bmp.ovh/imgs/2021/07/8ca4fe5532804c16.jpeg',
-    repo: 'https://github.com/BetaSu/react-homework',
+    repo: 'https://github.com/BetaSu/react53',
     sidebar: [
       {
         text: '本文档解决的问题',

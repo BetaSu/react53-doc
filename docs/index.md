@@ -32,11 +32,11 @@
 
 有了架构的基础，接下来的课程中我们会一一攻克`React`的方方面面。
 
-根据[费曼学习法](https://baike.baidu.com/item/%E8%B4%B9%E6%9B%BC%E5%AD%A6%E4%B9%A0%E6%B3%95/50895393)，常见的课程学习方式（被动学习）效率非常低：
+根据[费曼学习法](https://baike.baidu.com/item/%E8%B4%B9%E6%9B%BC%E5%AD%A6%E4%B9%A0%E6%B3%95/50895393)，常见的课程学习方式（被动学习）效果并不好：
 
 ![费曼学习法](/images/feiman.png)
 
-> 就我本人而言，我是在写了[React技术揭秘](https://react.iamkasong.com/)（主动学习中的**传授给他人**）后对`React`的认识才有了极大提高
+> 就我本人而言，我是在写了[React技术揭秘](https://react.iamkasong.com/)（主动学习中的**传授给他人**）对`React`的认识有了极大提高
 
 为了让大家更易学懂，本文档采用了与众不同的学习方式，主要有3点：
 

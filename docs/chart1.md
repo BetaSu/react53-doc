@@ -47,34 +47,11 @@
 这一步在源码中叫`commit`阶段，类似`git commit`提交代码（这里指将`副作用`提交给视图）。
 
 这一步会遍历`render`阶段找到的`副作用`并依次执行他们。
+## 执行课程1示例
 
-## 打开习题项目
+接下来请你理论结合实际，自己动手感受下这3个阶段的存在。
 
-接下来让我们理论结合实践，由你自己动手感受下这3个阶段的存在。
-
-```sh
-# 克隆习题项目
-git clone https://github.com/BetaSu/react53.git
-cd react53;
-# 安装依赖
-yarn # 或 npm install
-# 启动习题
-yarn start # 或 npm start
-```
-
-接下来选择`习题_1_框架工作原理`：
-
-```js
-? 你想看哪道题的示例？ (Use arrow keys)
-❯ 习题_1_框架工作原理 
-  习题_2_组件遍历顺序 
-  习题_3_状态更新 
-  习题_4_副作用与视图更新 
-```
-
-## 提莫种蘑菇
-
-打开控制台，你会发现打印了3条消息：
+运行`习题_1`，打开控制台，你会发现打印了3条消息：
 
 ```js
 开始render阶段，计算本次更新带来的副作用
@@ -82,7 +59,7 @@ yarn start # 或 npm start
 副作用：App（函数组件）插入  FiberNode {tag: 0, key: null, stateNode: null, elementType: ƒ, type: ƒ, …}
 ```
 
-这次更新是由调用`ReactDOM.render`造成的。
+这次更新是调用`ReactDOM.render`造成的。
 
 在第三行可以看到包含副作用的是`App`组件对应的`FiberNode`（第二课会讲到），执行的操作是：插入。
 
@@ -102,8 +79,23 @@ yarn start # 或 npm start
 
 这次更新是由于调用`useState`的`dispatchAction`造成的，会产生3个副作用。
 
-> 2个`button`之所以会更新属性，是因为绑定在`onClick`的回调（`add`与`del`）在每次`render`时都是一个全新方法，所以`React`认为该属性更新了
+::: details 思考题：为什么button会更新属性？
+2个`button`之所以会更新属性，是因为绑定在`onClick`的回调（`add`与`del`）在每次`render`时都是一个全新方法，所以`React`认为该属性更新了
+:::
+
 
 接下来请你自由发挥，充分感受`React`的三步更新流程。
 
-当学习完本节课后，记得打开`src/习题_1_框架工作原理/homework/index.ts`做课后习题哦。
+当学习完本节课后，记得做课后习题哦。
+
+## 总结
+
+请牢记这三步工作流程：
+
+```js
+触发更新 -> 计算本次更新带来的副作用（render阶段） -> 执行对应副作用（commit阶段）
+```
+
+`React`大部分`API`的调用都发生在`render`、`commit`阶段。在后面的课程中当我们讲到某个`API`的调用流程时，希望你能立刻脑补出他在这三个步骤中的位置。
+
+记得打开`课程1/homework/index.ts`做作业哦。

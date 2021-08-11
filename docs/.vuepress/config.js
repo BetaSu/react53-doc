@@ -2,7 +2,7 @@ const {description} = require('../../package.json');
 
 module.exports = {
   lang: 'zh-CN',
-  title: '5年React三年模拟',
+  title: 'React53的配套教科书',
   base: '/react53-doc/',
   description,
   themeConfig: {
@@ -14,19 +14,19 @@ module.exports = {
         link: '/index.md'
       },
       {
-        text: '第一课：框架工作原理',
+        text: '第一课：工作原理概览',
         link: '/chart1.md'
       },
       {
-        text: '第二课：组件遍历顺序',
+        text: '第二课：render阶段概览',
         link: '/chart2.md'
       },     
       {
-        text: '第二课：状态更新',
+        text: '第二课：状态更新原理',
         link: '/chart3.md'
       },
       {
-        text: '第四课：性能优化',
+        text: '第四课：性能优化原理',
         link: '/chart4.md'
       },
     ],

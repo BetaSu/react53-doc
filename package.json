@@ -9,7 +9,7 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "devDependencies": { 
+  "devDependencies": {
     "vuepress": "^2.0.0-beta.21"
-  } 
+  }
 }

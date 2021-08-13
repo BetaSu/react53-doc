@@ -22,7 +22,7 @@ module.exports = {
         link: '/chart2.md'
       },     
       {
-        text: '第二课：状态更新原理',
+        text: '第三课：状态更新原理',
         link: '/chart3.md'
       },
       {

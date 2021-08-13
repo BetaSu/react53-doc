@@ -69,7 +69,5 @@
 执行命令，根据提示创建课程工程目录：
 
 ```sh
-npm i -g react53
-# 或者
-yarn create react53
+npx react53
 ```

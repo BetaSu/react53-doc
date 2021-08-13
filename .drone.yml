@@ -24,5 +24,5 @@
       source: 
         - ./docs/.vuepress/dist
       rm: true
-      password:
-        from_secret: pwd
+      key:
+        from_secret: ssh_key

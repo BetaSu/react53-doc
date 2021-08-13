@@ -22,7 +22,7 @@
       port: 
         from_secret: port
       source: 
-        - ./docs/.vuepress/dist
+        - ./dist
       rm: true
       key:
         from_secret: ssh_key

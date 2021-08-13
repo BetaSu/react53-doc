@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "KaSong <313439271@qq.com>",
-  "description": "努力做最好懂的React进阶课程",
+  "description": "交互式React进阶课程",
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs",

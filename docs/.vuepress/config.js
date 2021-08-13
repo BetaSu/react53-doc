@@ -4,6 +4,7 @@ module.exports = {
   lang: 'zh-CN',
   title: 'React53的配套教科书',
   // base: '/react53-doc/',
+  dest: './dist',
   description,
   themeConfig: {
     logo: 'https://ftp.bmp.ovh/imgs/2021/07/8ca4fe5532804c16.jpeg',
